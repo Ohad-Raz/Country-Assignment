@@ -27,6 +27,7 @@ h2 {
   font-size: 42px;
   font-family: Garamond;
   margin-left: 245px;
+  color: antiquewhite;
 }
 
 h3 {
@@ -91,16 +92,7 @@ tr:hover {
 tr:nth-child(even) {
   background-color: rgba(5, 28, 28, 0.39);
 }
-
-.covergl {
-  background-position: center;
-  background-size: 1520px 950px;
-  background-image: url(homeswis5K.jpg);
-  background-repeat: no-repeat;
-  font-family: Garamond;
-  font-weight: bold;
-}
-
+/*
 .container {
   clear: both;
   width: 100%;
@@ -119,4 +111,4 @@ tr:nth-child(even) {
 
 .grid2,
 .maingrid2 {
-}
+}*/
