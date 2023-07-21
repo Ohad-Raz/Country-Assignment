@@ -1,0 +1,70 @@
+body {
+  background-position: center;
+  background-size: cover;
+  background-image: url(swishomme.png);
+  background-repeat: no-repeat;
+  padding-bottom: 1080px;
+  font-family: Garamond;
+  font-weight: bold;
+}
+
+p {
+  font-family: Garamond;
+  font-size: 24px;
+  font-weight: 550;
+  color: antiquewhite;
+  background-color: rgba(5, 28, 28, 0.125);
+  margin-left: 245px;
+  border-radius: 7px;
+}
+h1 {
+  text-align: center;
+  font-size: 65px;
+  font-family: Garamond;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: Garamond;
+  margin-left: 245px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1111116b;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+a:link {
+  color: rgb(71, 93, 179);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(77, 99, 186);
+}
+
+a:hover {
+  color: rgb(58, 140, 159);
+  font-weight: bold;
+  text-decoration: underline rgb(43, 160, 171);
+}
+
+a:active {
+  background-color: rgb(12, 91, 101);
+  font-style: none;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #29a7e1;
+  display: block;
+  font-size: 40px;
+}
