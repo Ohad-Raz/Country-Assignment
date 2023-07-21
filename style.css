@@ -1,9 +1,8 @@
 body {
   background-position: center;
-  background-size: cover;
-  background-image: url(swishomme.png);
+  background-size: 1520px 950px;
+  background-image: url(homeswis5K.jpg);
   background-repeat: no-repeat;
-  padding-bottom: 1080px;
   font-family: Garamond;
   font-weight: bold;
 }
@@ -13,10 +12,11 @@ p {
   font-size: 24px;
   font-weight: 550;
   color: antiquewhite;
-  background-color: rgba(5, 28, 28, 0.125);
+  background-color: rgba(5, 28, 28, 0.39);
   margin-left: 245px;
   border-radius: 7px;
 }
+
 h1 {
   text-align: center;
   font-size: 65px;
@@ -24,6 +24,12 @@ h1 {
 }
 
 h2 {
+  font-size: 42px;
+  font-family: Garamond;
+  margin-left: 245px;
+}
+
+h3 {
   font-size: 36px;
   font-family: Garamond;
   margin-left: 245px;
@@ -67,4 +73,50 @@ a:active {
   color: #29a7e1;
   display: block;
   font-size: 40px;
+}
+
+.CitiesTable {
+  margin-left: 245px;
+  background-color: rgba(18, 105, 105, 0.568);
+  text-align: center;
+  width: 60%;
+}
+
+th {
+  height: 40px;
+}
+tr:hover {
+  background-color: rgba(80, 255, 232, 0.123);
+}
+tr:nth-child(even) {
+  background-color: rgba(5, 28, 28, 0.39);
+}
+
+.covergl {
+  background-position: center;
+  background-size: 1520px 950px;
+  background-image: url(homeswis5K.jpg);
+  background-repeat: no-repeat;
+  font-family: Garamond;
+  font-weight: bold;
+}
+
+.container {
+  clear: both;
+  width: 100%;
+  max-width: 1275px;
+  padding-left: 0px;
+  margin: auto;
+  float: right;
+}
+
+.grid1,
+.grid2,
+.grid3,
+.maingrid .maingrid2 .maingrid3 {
+  float: left;
+}
+
+.grid2,
+.maingrid2 {
 }
