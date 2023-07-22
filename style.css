@@ -111,6 +111,7 @@ a:active {
 
 .email {
   padding-left: 16px;
+  font-size: 21px;
 }
 
 footer {
@@ -134,12 +135,11 @@ footer {
 
 .email {
   text-align: center;
-  margin-left: 220px;
+  margin-left: 85px;
 }
-
 .box2 {
   width: 800px;
-  margin-left: 210px;
+  margin-left: 240px;
   margin-top: 7px;
   padding: 15px;
   background: rgba(250, 235, 215, 0.5);
