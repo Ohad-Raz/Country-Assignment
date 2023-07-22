@@ -2,7 +2,7 @@ body {
   background-position: bottom;
   background-size: 100%;
   background-image: url(city2.4k.jpg), url(city1.4k.jpg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat;
   background-position: bottom, top;
   font-family: Garamond;
   font-weight: bold;
@@ -107,4 +107,86 @@ tr:hover {
 tr:nth-child(even) {
   background-color: rgba(5, 28, 28, 0.39);
   color: antiquewhite;
+}
+
+a:link {
+  color: rgb(18, 198, 211);
+  text-decoration: none;
+  margin-right: 0px;
+}
+
+a:visited {
+  color: rgb(18, 198, 211);
+}
+
+a:hover {
+  color: rgb(58, 140, 159);
+  font-weight: bold;
+  text-decoration: underline rgb(43, 160, 171);
+}
+
+a:active {
+  background-color: rgb(12, 91, 101);
+  font-style: none;
+}
+
+.email {
+  padding-left: 16px;
+}
+
+footer {
+  font-size: 20px;
+  background: #29a7e1;
+  background-repeat: no-repeat;
+  font-family: Garamond;
+  font-weight: bold;
+}
+
+.box {
+  float: right;
+  width: 1480px;
+  margin-top: 4px;
+  padding: 10px;
+  background: rgba(250, 235, 215, 0.4);
+  border: 2px solid #333;
+  border-color: rgba(11, 126, 146, 0.452);
+  border-radius: 8px;
+}
+
+.email {
+  text-align: center;
+  margin-left: 220px;
+}
+
+.box2 {
+  width: 800px;
+  margin-left: 210px;
+  margin-top: 7px;
+  padding: 15px;
+  background: rgba(250, 235, 215, 0.6);
+  border: 2px solid #333;
+  border-color: rgba(11, 126, 146, 0.452);
+  border-radius: 8px;
+  text-align: center;
+  float: ;
+}
+
+.Air-Wiki {
+  float: right;
+  padding-right: 20px;
+}
+
+.hotel {
+  float: right;
+  padding-right: 20px;
+}
+
+.resume {
+  float: right;
+  padding-right: 20px;
+}
+
+.allstar {
+  float: right;
+  padding-right: 20px;
 }
