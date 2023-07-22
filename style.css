@@ -12,28 +12,40 @@ p {
   font-size: 24px;
   font-weight: 550;
   color: antiquewhite;
-  background-color: rgba(5, 28, 28, 0.39);
+  background-color: rgba(5, 28, 28, 0.47);
   margin-left: 245px;
   border-radius: 7px;
 }
 
 h1 {
   text-align: center;
-  font-size: 65px;
+  font-size: 56px;
   font-family: Garamond;
+  margin-left: 175px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 47px;
   font-family: Garamond;
   margin-left: 245px;
   color: antiquewhite;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 34px;
   font-family: Garamond;
-  margin-left: 245px;
+  text-align: center;
+  background-color: rgba(250, 235, 215, 0.37);
+  border-radius: 15px;
+  margin-left: 230px;
+}
+
+.flaganim {
+  align-content: center;
+  margin-left: 20px;
+  box-shadow: 3px 3px rgba(249, 12, 12, 0.084), 2px 2px rgba(234, 0, 0, 0.045),
+    2px 2px rgba(248, 11, 11, 0.012);
+  border-radius: 5px;
 }
 
 .sidenav {

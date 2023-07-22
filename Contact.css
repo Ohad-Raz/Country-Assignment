@@ -1,0 +1,192 @@
+body {
+  background-position: center;
+  background-size: 1520px 950px;
+  background-image: url(roadtaken.jpg);
+  background-repeat: no-repeat;
+  font-family: Garamond;
+  font-weight: bold;
+}
+
+p {
+  font-family: Garamond;
+  font-size: 24px;
+  font-weight: 550;
+  color: antiquewhite;
+  background-color: rgba(5, 28, 28, 0.39);
+  margin-left: 245px;
+  border-radius: 7px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+  font-family: Garamond;
+  margin-left: 175px;
+}
+
+h2 {
+  font-size: 47px;
+  font-family: Garamond;
+  margin-left: 245px;
+  color: antiquewhite;
+}
+
+h3 {
+  font-size: 34px;
+  font-family: Garamond;
+  margin-left: 245px;
+  padding-bottom: 107px;
+}
+h3 {
+  color: antiquewhite;
+}
+
+.flaganim {
+  align-content: center;
+  margin-left: 20px;
+  box-shadow: 3px 3px rgba(249, 12, 12, 0.084), 2px 2px rgba(234, 0, 0, 0.045),
+    2px 2px rgba(248, 11, 11, 0.012);
+  border-radius: 5px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1111116b;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+a:link {
+  color: rgb(71, 93, 179);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(77, 99, 186);
+}
+
+a:hover {
+  color: rgb(58, 140, 159);
+  font-weight: bold;
+  text-decoration: underline rgb(43, 160, 171);
+}
+
+a:active {
+  background-color: rgb(12, 91, 101);
+  font-style: none;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #29a7e1;
+  display: block;
+  font-size: 40px;
+}
+
+.CitiesTable {
+  margin-left: 245px;
+  background-color: rgba(18, 105, 105, 0.568);
+  text-align: center;
+  width: 60%;
+}
+
+th {
+  height: 40px;
+}
+tr:hover {
+  background-color: rgba(80, 255, 232, 0.123);
+}
+tr:nth-child(even) {
+  background-color: rgba(5, 28, 28, 0.39);
+}
+
+.contactform {
+  text-align: center;
+  font-size: 34px;
+  /*color: antiquewhite;
+  /*background-color: rgba(250, 235, 215, 0.334);
+  background-size: 300px;
+  border-radius: 1000px;*/
+}
+textarea {
+  width: 45%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgba(250, 235, 215, 0.321);
+  border-radius: 4px;
+  background-color: #f8f8f83a;
+  resize: none;
+}
+
+textarea:focus {
+  background-color: #f8f8f8d6;
+}
+
+input {
+  border-radius: 4px;
+  border-color: antiquewhite;
+  background-color: #f8f8f83a;
+}
+
+input:focus {
+  background-color: #f8f8f8d6;
+}
+button {
+  width: 220px;
+  height: 50px;
+  background-color: rgba(250, 235, 215, 0.699);
+  background-color: #f8f8f89b;
+  border-radius: 10px;
+  font-size: 17px;
+  border-bottom: antiquewhite;
+}
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4c77af6c; /* Green */
+  color: white;
+}
+
+.box {
+  margin: 0 auto;
+  width: 880px;
+  padding: 20px;
+  background: rgba(250, 235, 215, 0.277);
+  border: 2px solid #333;
+  border-color: antiquewhite;
+  border-radius: 18px;
+}
+
+select {
+  width: 220px;
+  height: 50px;
+  background-color: #f8f8f83a;
+  border-color: #4c77af6c;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+select:focus {
+  background-color: #f8f8f8d6;
+}
+
+#fullName {
+  padding-right: 70px;
+}
+/*
+
+#phonenumber {
+}
+
+#country {
+  padding-right: 36px;
+}*/
