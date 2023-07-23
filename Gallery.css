@@ -69,10 +69,17 @@ h3 {
   font-size: 40px;
 }
 
+a {
+  color: rgb(73, 203, 226);
+  text-shadow: 5px 5px 8px rgba(43, 48, 58, 0.144),
+    10px 10px 8px rgba(42, 48, 59, 0.116), 15px 15px 8px rgba(33, 40, 53, 0);
+}
+
 a:link {
-  color: rgb(166, 232, 236);
+  color: rgb(73, 203, 226);
   text-decoration: none;
-  margin-right: 0px;
+  text-shadow: 5px 5px 8px rgba(43, 48, 58, 0.144),
+    10px 10px 8px rgba(42, 48, 59, 0.116), 15px 15px 8px rgba(33, 40, 53, 0);
 }
 
 a:hover {
@@ -80,9 +87,9 @@ a:hover {
   font-weight: bold;
   text-decoration: underline rgb(87, 163, 167);
   transition-duration: 0.7s;
-  text-shadow: #333333d5 4px 4px 8px;
+  text-shadow: 5px 5px 8px rgba(43, 48, 58, 0.678),
+    10px 10px 8px rgba(42, 48, 59, 0.336), 15px 15px 8px rgba(33, 40, 53, 0.219);
 }
-
 a:active {
   background-color: rgba(145, 205, 212, 0.459);
   font-style: none;
