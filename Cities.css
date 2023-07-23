@@ -161,7 +161,7 @@ footer {
   width: 1480px;
   margin-top: 4px;
   padding: 10px;
-  background: rgba(250, 235, 215, 0.801);
+  background: rgba(240, 223, 204, 0.507);
   border: 2px solid #333;
   border-color: rgba(11, 126, 146, 0.452);
   border-radius: 8px;
@@ -177,7 +177,7 @@ footer {
   margin-left: 240px;
   margin-top: 7px;
   padding: 15px;
-  background: rgba(211, 196, 178, 0.589);
+  background: rgba(211, 196, 178, 0.651);
   border: 2px solid #333;
   border-color: rgba(11, 126, 146, 0.452);
   border-radius: 8px;
