@@ -44,9 +44,10 @@ h3 {
 .flaganim {
   align-content: center;
   margin-left: 20px;
-  box-shadow: 3px 3px rgba(249, 12, 12, 0.084), 2px 2px rgba(234, 0, 0, 0.045),
-    2px 2px rgba(248, 11, 11, 0.012);
+  box-shadow: 3px 3px 8px rgba(122, 20, 20, 0.068),
+    2px 2px 8px rgba(234, 0, 0, 0.075), 2px 2px 8px rgba(248, 11, 11, 0.021);
   border-radius: 5px;
+  background-color: rgba(129, 17, 17, 0.055);
 }
 
 .sidenav {
@@ -81,6 +82,7 @@ a:hover {
   font-weight: bold;
   text-decoration: underline rgb(87, 163, 167);
   transition-duration: 0.7s;
+  text-shadow: #333333d5 4px 4px 8px;
 }
 
 a:active {
@@ -114,6 +116,10 @@ tr:hover {
 tr:nth-child(even) {
   background-color: rgba(243, 199, 199, 0.212);
   color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even) :hover {
+  background-color: rgba(255, 255, 255, 0.075);
 }
 
 tr {
