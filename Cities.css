@@ -44,9 +44,10 @@ h3 {
 .flaganim {
   align-content: center;
   margin-left: 20px;
-  box-shadow: 3px 3px rgba(249, 12, 12, 0.084), 2px 2px rgba(234, 0, 0, 0.045),
+  box-shadow: 3px 3px rgba(249, 12, 12, 0.041), 2px 2px rgba(234, 0, 0, 0.045),
     2px 2px rgba(248, 11, 11, 0.012);
   border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.103);
 }
 
 .sidenav {
@@ -91,27 +92,33 @@ a:active {
 
 .CitiesTable {
   margin-left: 245px;
-  background-color: rgba(152, 203, 207, 0.658);
+  background-color: rgba(255, 255, 255, 0.658);
   text-align: center;
   width: 70%;
   margin-bottom: 100px;
   border-radius: 10px;
   float: right;
-  margin-right: 120px;
+  margin-right: 110px;
   font-size: 22px;
 }
 
 th {
   height: 40px;
   color: antiquewhite;
+  background-color: rgba(164, 33, 33, 0.634);
+  font-size: 28px;
 }
 tr:hover {
-  background-color: rgba(132, 173, 168, 0.212);
-  color: antiquewhite;
+  background-color: rgba(243, 199, 199, 0.212);
+  color: rgb(0, 0, 0);
 }
 tr:nth-child(even) {
-  background-color: rgba(42, 77, 77, 0.479);
-  color: antiquewhite;
+  background-color: rgba(243, 199, 199, 0.212);
+  color: rgb(0, 0, 0);
+}
+
+tr {
+  color: rgba(164, 33, 33, 0.634);
 }
 
 a:link {
