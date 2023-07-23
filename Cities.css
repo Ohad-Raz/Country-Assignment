@@ -44,10 +44,9 @@ h3 {
 .flaganim {
   align-content: center;
   margin-left: 20px;
-  box-shadow: 3px 3px rgba(249, 12, 12, 0.041), 2px 2px rgba(234, 0, 0, 0.045),
+  box-shadow: 3px 3px rgba(249, 12, 12, 0.084), 2px 2px rgba(234, 0, 0, 0.045),
     2px 2px rgba(248, 11, 11, 0.012);
   border-radius: 5px;
-  background-color: rgba(255, 0, 0, 0.103);
 }
 
 .sidenav {
@@ -62,32 +61,30 @@ h3 {
   padding-top: 20px;
 }
 
-a:link {
-  color: rgb(71, 93, 179);
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgb(77, 99, 186);
-}
-
-a:hover {
-  color: rgb(58, 140, 159);
-  font-weight: bold;
-  text-decoration: underline rgb(43, 160, 171);
-}
-
-a:active {
-  background-color: rgb(12, 91, 101);
-  font-style: none;
-}
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #29a7e1;
+  color: #a4def8;
   display: block;
   font-size: 40px;
+}
+
+a:link {
+  color: rgb(166, 232, 236);
+  text-decoration: none;
+  margin-right: 0px;
+}
+
+a:hover {
+  color: rgb(238, 244, 245);
+  font-weight: bold;
+  text-decoration: underline rgb(87, 163, 167);
+}
+
+a:active {
+  background-color: rgba(145, 205, 212, 0.459);
+  font-style: none;
 }
 
 .CitiesTable {
@@ -119,27 +116,6 @@ tr:nth-child(even) {
 
 tr {
   color: rgba(164, 33, 33, 0.634);
-}
-
-a:link {
-  color: rgb(18, 198, 211);
-  text-decoration: none;
-  margin-right: 0px;
-}
-
-a:visited {
-  color: rgb(18, 198, 211);
-}
-
-a:hover {
-  color: rgb(58, 140, 159);
-  font-weight: bold;
-  text-decoration: underline rgb(43, 160, 171);
-}
-
-a:active {
-  background-color: rgb(12, 91, 101);
-  font-style: none;
 }
 
 .email {
@@ -181,7 +157,6 @@ footer {
   border-color: rgba(11, 126, 146, 0.452);
   border-radius: 8px;
   text-align: center;
-  float: ;
 }
 
 .Air-Wiki {

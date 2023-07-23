@@ -62,33 +62,33 @@ h3 {
   padding-top: 20px;
 }
 
-a:link {
-  color: rgb(71, 93, 179);
-  text-decoration: none;
-}
 
-a:visited {
-  color: rgb(77, 99, 186);
-}
-
-a:hover {
-  color: rgb(58, 140, 159);
-  font-weight: bold;
-  text-decoration: underline rgb(43, 160, 171);
-}
-
-a:active {
-  background-color: rgb(12, 91, 101);
-  font-style: none;
-}
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #29a7e1;
+  color: #a4def8;
   display: block;
   font-size: 40px;
 }
+
+a:link {
+  color: rgb(166, 232, 236);
+  text-decoration: none;
+  margin-right: 0px;
+}
+
+a:hover {
+  color: rgb(238, 244, 245);
+  font-weight: bold;
+  text-decoration: underline rgb(87, 163, 167);
+}
+
+a:active {
+  background-color: rgba(145, 205, 212, 0.459);
+  font-style: none;
+}
+
 
 .CitiesTable {
   margin-left: 245px;
@@ -212,26 +212,7 @@ select:focus {
   padding-right: 36px;
 }*/
 
-a:link {
-  color: rgb(18, 198, 211);
-  text-decoration: none;
-  margin-right: 0px;
-}
 
-a:visited {
-  color: rgb(18, 198, 211);
-}
-
-a:hover {
-  color: rgb(58, 140, 159);
-  font-weight: bold;
-  text-decoration: underline rgb(43, 160, 171);
-}
-
-a:active {
-  background-color: rgb(12, 91, 101);
-  font-style: none;
-}
 
 .email {
   padding-left: 16px;
