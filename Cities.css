@@ -80,11 +80,13 @@ a:hover {
   color: rgb(238, 244, 245);
   font-weight: bold;
   text-decoration: underline rgb(87, 163, 167);
+  transition-duration: 0.7s;
 }
 
 a:active {
   background-color: rgba(145, 205, 212, 0.459);
   font-style: none;
+  transition-duration: 0.3s;
 }
 
 .CitiesTable {
@@ -118,6 +120,29 @@ tr {
   color: rgba(164, 33, 33, 0.634);
 }
 
+/*
+link overwrite example!
+a:link {
+  color: rgb(18, 198, 211);
+  text-decoration: none;
+  margin-right: 0px;
+}
+
+a:visited {
+  color: rgb(18, 198, 211);
+}
+
+a:hover {
+  color: rgb(58, 140, 159);
+  font-weight: bold;
+  text-decoration: underline rgb(43, 160, 171);
+}
+
+a:active {
+  background-color: rgb(12, 91, 101);
+  font-style: none;
+}*/
+
 .email {
   padding-left: 16px;
   font-size: 21px;
@@ -136,7 +161,7 @@ footer {
   width: 1480px;
   margin-top: 4px;
   padding: 10px;
-  background: rgba(250, 235, 215, 0.719);
+  background: rgba(250, 235, 215, 0.801);
   border: 2px solid #333;
   border-color: rgba(11, 126, 146, 0.452);
   border-radius: 8px;
@@ -152,9 +177,20 @@ footer {
   margin-left: 240px;
   margin-top: 7px;
   padding: 15px;
-  background: rgba(250, 235, 215, 0.719);
+  background: rgba(211, 196, 178, 0.589);
   border: 2px solid #333;
   border-color: rgba(11, 126, 146, 0.452);
+  border-radius: 8px;
+  text-align: center;
+  float: ;
+}
+
+.box4 {
+  width: auto;
+  margin-left: 8px;
+  padding: 4px;
+  background: rgba(125, 161, 161, 0.4);
+
   border-radius: 8px;
   text-align: center;
 }

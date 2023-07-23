@@ -62,7 +62,6 @@ h3 {
   padding-top: 20px;
 }
 
-
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -82,13 +81,14 @@ a:hover {
   color: rgb(238, 244, 245);
   font-weight: bold;
   text-decoration: underline rgb(87, 163, 167);
+  transition-duration: 0.7s;
 }
 
 a:active {
   background-color: rgba(145, 205, 212, 0.459);
   font-style: none;
+  transition-duration: 0.3s;
 }
-
 
 .CitiesTable {
   margin-left: 245px;
@@ -137,6 +137,8 @@ input {
   border-radius: 4px;
   border-color: antiquewhite;
   background-color: #f8f8f83a;
+  padding: 5px;
+  text-align: left;
 }
 
 input:focus {
@@ -152,7 +154,7 @@ button {
   border-bottom: antiquewhite;
 }
 button {
-  transition-duration: 0.4s;
+  transition-duration: 0.5s;
 }
 
 button:hover {
@@ -178,6 +180,7 @@ select {
   border-color: #4c77af6c;
   border-radius: 10px;
   font-size: 17px;
+  text-align: center;
 }
 
 select:focus {
@@ -186,19 +189,19 @@ select:focus {
 
 .stayintouch {
   /* margin-top: 100px;*/
-  
-    font-size: 34px;
-    font-family: Garamond;
-    margin-left: 245px;
-      color: antiquewhite;
-      margin-top: 30px;
-      margin-bottom: 70px;
-  }
+
+  font-size: 34px;
+  font-family: Garamond;
+  margin-left: 245px;
+  color: antiquewhite;
+  margin-top: 30px;
+  margin-bottom: 65px;
 }
 
-#fullName {
-  padding-right: 70px;
-}
+/*#fullName {
+  margin-right: 0px;
+  padding-left: 75px;
+}*/
 
 #Email {
   padding-right: 62px;
@@ -211,8 +214,6 @@ select:focus {
 #country {
   padding-right: 36px;
 }*/
-
-
 
 .email {
   padding-left: 16px;
@@ -247,9 +248,19 @@ footer {
   margin-left: 240px;
   margin-top: 7px;
   padding: 15px;
-  background: rgba(250, 235, 215, 0.5);
+  background: rgba(218, 204, 187, 0.5);
   border: 2px solid #333;
   border-color: rgba(11, 126, 146, 0.452);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.box4 {
+  width: auto;
+  margin-left: 8px;
+  padding: 4px;
+  background: rgba(125, 161, 161, 0.4);
+
   border-radius: 8px;
   text-align: center;
 }

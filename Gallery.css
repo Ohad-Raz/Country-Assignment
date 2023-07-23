@@ -78,11 +78,13 @@ a:hover {
   color: rgb(238, 244, 245);
   font-weight: bold;
   text-decoration: underline rgb(87, 163, 167);
+  transition-duration: 0.7s;
 }
 
 a:active {
   background-color: rgba(145, 205, 212, 0.459);
   font-style: none;
+  transition-duration: 0.3s;
 }
 
 .CitiesTable {
@@ -183,7 +185,7 @@ footer {
   margin-left: 240px;
   margin-top: 7px;
   padding: 15px;
-  background: rgba(250, 235, 215, 0.5);
+  background: rgba(228, 214, 196, 0.5);
   border: 2px solid #333;
   border-color: rgba(11, 126, 146, 0.452);
   border-radius: 8px;
@@ -191,6 +193,15 @@ footer {
   float: ;
 }
 
+.box4 {
+  width: auto;
+  margin-left: 8px;
+  padding: 4px;
+  background: rgba(125, 161, 161, 0.4);
+
+  border-radius: 8px;
+  text-align: center;
+}
 .Air-Wiki {
   float: right;
   padding-right: 20px;
